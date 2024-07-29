@@ -1,0 +1,225 @@
+        
+body {
+    /* background-color: lightblue; */
+    margin: top;
+    padding: 20px; 
+    /* Optional: Add some padding for better visual appearance */
+}
+* {
+    box-sizing: border-box;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.task-command{
+    background-color: #007cb7;
+    color: white;
+}
+.formdesign{
+  overflow-y: auto;
+  position: absolute;
+  right: -1vw; /* Adjust as needed */
+  top: 0vh; /* Adjust as needed */
+  width: 19.19%;  /* Adjust as needed */
+  background-color: #000000;
+  height: 100vh; /* Adjust as needed */
+  margin-left: -2.4vw;
+}
+
+#dropArea {
+  padding: 2vh; /* 20px */
+  text-align: center;
+  /* background-color: rgb(94, 94, 94); */
+}
+
+.center {
+    text-align: center;
+}
+
+.scroll{
+  overflow-y: auto; 
+  height: 100vh; 
+  width: 16%;
+  margin-top: -2vh; 
+  /* margin-right: 130px;  */
+  background-color: #000000;
+  margin-left: -1.9vw; 
+}
+
+.scroll1{
+  overflow-y: auto; 
+  height:100vh; 
+  margin-top: -2vh; 
+  margin-bottom: -11vh; 
+  width: 88.93%;
+  margin-left: -2vw; 
+  background-color: #404040;
+}
+
+
+
+/**************/  /* nav bar css */ 
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.45em;
+  font-weight: bold; /* Make the text bold */
+  text-shadow: 2px 2px #ccc;
+  text-align: center;
+}
+.main-nav {
+  margin-top: 5px;
+}
+.logo a,
+.main-nav a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+.main-nav a {
+  color: #34495e;
+  font-size: .99em;
+}
+.main-nav a:hover {
+  color: #718daa;
+}
+
+@media (min-width: 769px) {
+  .header,
+  .main-nav {
+      display: flex;
+  }
+  .header {
+      flex-direction: column;
+      align-items: center;
+  }
+  .header {
+      width: 100%;
+      margin: 0 auto;
+      max-width: 1350px;
+  }
+}
+@media (min-width: 1025px) {
+  .header {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+}
+.header-container {
+  display: flex;
+  align-items: center; /* This will vertically center the items */
+  justify-content: center; /* This will horizontally center the items */
+}
+
+/* text style and type */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+h4 {
+    font-family: 'Roboto Mono', monospace; /* Change the font style */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 0px 2px #313030; /* Add a drop shadow */
+    color:#ccc;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+h5 {
+    font-family: 'Share Tech Mono', monospace; /* Change the font style */
+    text-shadow: 0px 2px #ccc; 
+    font-weight:bold;/* Add a drop shadow */
+    color:#000000;
+}
+
+/* image popup */
+.myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 10%;
+  max-width: 50%;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 9.5vh; /* 50px -> 5vh */
+  right: 23vw;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* for the page top inputs */
+/* .parent-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
