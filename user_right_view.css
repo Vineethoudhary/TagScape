@@ -1,0 +1,127 @@
+        
+body {
+    /* background-color: lightblue; */
+    margin: top;
+    padding: 20px; 
+    /* Optional: Add some padding for better visual appearance */
+}
+
+
+  .scroll{
+    overflow-y: auto; 
+    height:90vh; 
+    width: 105%;
+    margin-top: -5vh;  
+    margin-left: -2.2vw; 
+    background-color: #404040;
+  }
+ 
+
+/* .task-command{
+    background-color: #007cb7;
+    color: white;
+} */
+
+/* search option CSS code start's from here */
+
+
+
+
+
+
+
+/**************/  /* nav bar css */ 
+
+/* body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+} */
+
+
+
+
+/* image popup CSS code start's from here*/
+.myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 10vh;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  /* width: 10%; */
+  max-width: 50vw;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: 20px auto;
+  display: block;
+  width: 80vw;
+  max-width: 70vw;
+  text-align: center;
+  color: #ccc;
+  padding: 1vh 0;
+  height: 15vh;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 1vh;
+  right: 2vw;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* image popup CSS code end's here*/
+
+
+
+/* for the page top inputs */
+.parent-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
